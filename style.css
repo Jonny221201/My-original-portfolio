@@ -14,7 +14,8 @@
   
 }
 
-body{
+body{ 
+ 
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -183,6 +184,7 @@ i.material-icons.menu-burger {
     position: sticky;
     margin-left: 90%;
     top: 550px;
+    margin-top: 100px;
     animation: goes-up-arrow 1.5s infinite;
 
 }
@@ -370,10 +372,13 @@ i.material-icons.menu-burger {
 @media screen and (max-width: 500px) {
     .home-holder {
         flex-direction: column;
-
-
-
-
+    }
+    .arrow-goes-up {
+        top: 700px;
+        margin-top: -150px;
+        margin-left: 80%;
+        
+       
     }
     .home-holder h1 {
         font-size: 26px;
@@ -406,13 +411,16 @@ i.material-icons.menu-burger {
     .skills-content-holder {
         font-size: 16px;
     }
-
+    .home-image-holder img {
+        width: 200px;
+    }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
     .home-holder p {
         font-size: 12px;
     }
     .home-holder h1 {
         font-size: 20px;
     }
+ 
 }

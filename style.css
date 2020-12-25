@@ -10,7 +10,7 @@
 
     --content-color: #fff;
     --content-reverse-color: #000;
-
+    --burger-menu-color: #000;
   
 }
 
@@ -90,6 +90,9 @@ nav {
     padding-left: 5px;
     color: var(--nav-link-color);
 }
+i.material-icons.menu-burger {
+    display: none;
+}
 
 /* theme-stylings */
 /* theme-stylings */
@@ -141,7 +144,7 @@ nav {
 
 .home-container {
     width: 100%;
-    height: 90vh;
+   
    
 }
 .home-holder {
@@ -178,7 +181,7 @@ nav {
     height: 50px;
     border-radius: 50%;
     position: sticky;
-    margin-left: 1250px;
+    margin-left: 90%;
     top: 550px;
     animation: goes-up-arrow 1.5s infinite;
 
@@ -211,7 +214,7 @@ nav {
 }
 
 .about-holder {
-    width: 80%;
+    width: 40%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -232,6 +235,8 @@ nav {
     text-align: justify;
     flex-wrap: wrap;
     margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
 }
 
 .header-about h1 {
@@ -255,3 +260,159 @@ nav {
 /* skills-page-styling */
 /* skills-page-styling */
 
+.skills-page-holder {
+    width: 100%;
+    margin-top: 100px;
+  
+}
+.skills-content-holder {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+.skills-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.skills-alone {
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    margin: 10% 2%;
+   
+   
+}
+.rate-circles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rate-circles div {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 50%;
+    width: 10%;
+}
+.rate-circles div:nth-child() {
+    background-color: ;
+}
+.image-container-skills img {
+    width: 150px;
+    height: 100px;
+}
+
+/* media-querries */
+/* media-querries */
+/* media-querries */
+
+@media screen and (min-width: 1400px) {
+   
+    .skills-alone {
+        width: 20%;
+    }
+    .arrow-goes-up {
+        top: 800px;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .arrow-goes-up {
+        top: 1250px;
+    }
+    .home-holder {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    .header-about-page {
+        margin-top: 200px;
+    }
+    .home-content-holder h1 {
+        margin-bottom: 100px;
+    }
+    .home-content-holder p {
+        margin-bottom: 50px;
+    }
+    .home-image-holder {
+        margin-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 860px) {
+ 
+    .skills-alone {
+        width: 30%;
+    }
+    .link-container {
+        display: none;
+    }
+    i.material-icons.menu-burger {
+        display: inline-block;
+        color: var(--burger-menu-color);
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .home-holder {
+        flex-direction: column;
+
+
+
+
+    }
+    .home-holder h1 {
+        font-size: 26px;
+    }
+    .home-holder p{
+        font-size: 16px;
+    }
+    i.material-icons.menu-burger {
+        display: inline-block;
+        color: var(--burger-menu-color);
+    }
+    .nav-container {
+        font-size: 10px;
+    }
+    .link-container {
+        display: none;
+    }
+
+    .skills-alone {
+        width: 100%;
+        
+    }
+    .contents-about-me {
+        font-size: 12px;
+        text-align: start;
+    }
+    .header-about-page {
+        font-size: 25px;
+    }
+    .skills-content-holder {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .home-holder p {
+        font-size: 12px;
+    }
+    .home-holder h1 {
+        font-size: 20px;
+    }
+}

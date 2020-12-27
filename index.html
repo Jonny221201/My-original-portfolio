@@ -29,13 +29,14 @@
     </div>
     <div class="link-container" id="links">
         <ul>
-            <li><a href="#home">Home</li></a>
-            <li><a href="#about-page">About</li></a>
-            <li><a href="#skills-page">Skills</li></a>
-            <li><a href="#projects-page">Projects</li></a>
-            <li><a href="#contact-page">Contact</li></a>
+            <li><a id="home-btn" href="#home">Home</li></a>
+            <li><a id="about-btn" href="#about-page">About</li></a>
+            <li><a id="skills-btn" href="#skills-page">Skills</li></a>
+            <li><a id="projects-btn" href="#projects-page">Projects</li></a>
+            <li><a id="contact-btn" href="#contact-page">Contact</li></a>
             <li id="themesBtn" class="themes-link"><a>Themes</a>
                 <i class="material-icons color-container ">expand_more</i>
+                
             </li>
             <i id="close" class="material-icons close">close</i>
         </ul>
@@ -43,51 +44,55 @@
     </div>
     <i id="burger" class="material-icons menu-burger">menu</i>
 </div>
-</nav>
 
- <!-- theme-options -->
+    <!-- theme-options -->
     <!-- theme-options -->
     <!-- theme-options -->  
 
-    <div class="theme-option-container" id="color-container">
+<div class="theme-option-container" id="color-container">
 
-        <div class="dark-theme">
+    <div class="dark-theme">
+    <p>
+        Dark Theme
+    </p>
+    <ul>
+        <li id="dark-white" style="background-color: #fff;"></li>
+        <li id="dark-red" style="background-color: red;"></li>
+        <li id="dark-blue" style="background-color: blue;"></li>
+        <li id="dark-orange" style="background-color: orange;"></li>
+        <li id="dark-yellow" style="background-color: yellow;"></li>
+        <li id="dark-aqua" style="background-color: aqua;"></li>
+       
+        <li id="dark-purple" style="background-color: purple;"></li>
+        <li id="dark-green" style="background-color: green;"></li>
+    </ul>
+    </div>
+
+    <div class="light-theme">
         <p>
-            Dark Theme
+            Light Theme
         </p>
         <ul>
-            <li id="dark-white" style="background-color: #fff;"></li>
-            <li id="dark-red" style="background-color: red;"></li>
-            <li id="dark-blue" style="background-color: blue;"></li>
-            <li id="dark-orange" style="background-color: orange;"></li>
-            <li id="dark-yellow" style="background-color: yellow;"></li>
-            <li id="dark-aqua" style="background-color: aqua;"></li>
-           
-            <li id="dark-purple" style="background-color: purple;"></li>
-            <li id="dark-green" style="background-color: green;"></li>
+            <li id="light-white" style="background-color: #000;"></li>
+            <li id="light-white" style="background-color: red;"></li>
+            <li id="light-white" style="background-color: blue;"></li>
+            <li id="light-white" style="background-color: orange;"></li>
+            <li id="light-white" style="background-color: yellow;"></li>
+            <li id="light-white" style="background-color: aqua;"></li>
+         
+            <li id="light-white" style="background-color: purple;"></li>
+            <li id="light-white" style="background-color: green;"></li>
+          
         </ul>
         </div>
 
-        <div class="light-theme">
-            <p>
-                Light Theme
-            </p>
-            <ul>
-                <li id="light-white" style="background-color: #000;"></li>
-                <li id="light-white" style="background-color: red;"></li>
-                <li id="light-white" style="background-color: blue;"></li>
-                <li id="light-white" style="background-color: orange;"></li>
-                <li id="light-white" style="background-color: yellow;"></li>
-                <li id="light-white" style="background-color: aqua;"></li>
-             
-                <li id="light-white" style="background-color: purple;"></li>
-                <li id="light-white" style="background-color: green;"></li>
-              
-            </ul>
-            </div>
+
+</div>
+</nav>
 
 
-    </div>
+
+   
 
 
     <!-- home-content -->
@@ -305,6 +310,18 @@
                     <div></div>
                  </div>
              </div>
+
+             <div data-aos="flip-left"  data-aos-duration="2000" data-aos-offset="0"  data-aos-delay="200" class="skills-alone">
+                <div class="image-container-skills"> <img src="./images/git.png" alt="Git Logo"></div>
+                <p>Git</p>
+                <div class="rate-circles star3-spot">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
 
             <div data-aos="flip-right"  data-aos-duration="2000" data-aos-offset="0"  data-aos-delay="200" class="skills-alone">
                 <div class="image-container-skills"> <img src="./images/Vue.png" alt="Vue Logo"></div>

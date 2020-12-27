@@ -14,6 +14,27 @@ let lightWhite = document.getElementById("light-white");
 let nav = document.getElementById("home");
 let linkColors = document.getElementById("colors-nav");
 
+let homeBtnClose = document.getElementById('home-btn');
+let aboutBtnClose = document.getElementById('about-btn');
+let skillsBtnClose = document.getElementById('skills-btn');
+let projectsBtnClose = document.getElementById('projects-btn');
+let contactBtnClose = document.getElementById('contact-btn');
+
+homeBtnClose.addEventListener('click', () => {
+    links.style.display = 'none';
+})
+aboutBtnClose.addEventListener('click', () => {
+    links.style.display = 'none';
+})
+skillsBtnClose.addEventListener('click', () => {
+    links.style.display = 'none';
+})
+projectsBtnClose.addEventListener('click', () => {
+    links.style.display = 'none';
+})
+contactBtnClose.addEventListener('click', () => {
+    links.style.display = 'none';
+})
 
 
 themesBtn.addEventListener('click', () => {

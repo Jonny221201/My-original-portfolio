@@ -103,12 +103,12 @@ i.material-icons.menu-burger {
 .theme-option-container {
     display: flex;
     flex-direction: column;
-    color: #000;
+    color: var(--light-color);
     width: 20%;
-    background-color: white;
+    background-color: var(--dark-color);
     justify-content: space-evenly;
     margin-left: 70%;
-    border: 1px solid #000;
+    border: 2px solid var(--light-color);
     border-radius: 0px 0px 12px 12px;
     display: none;
     position: absolute;
@@ -119,16 +119,18 @@ i.material-icons.menu-burger {
 .theme-option-container li {
     width: 24px;
     height: 24px;
-    background-color: #000;
     margin-right: 20px;
     list-style: none;
-    border: 1px solid #000;
-    
-    
+    border: 2px solid var(--light-color);
+    margin-top: 10px;
 }
 .theme-option-container p {
     margin-left: 10px;
     font-weight: 500;
+    border-bottom: 1px solid var(--light-color);
+    width: 25%;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .dark-theme ul, .light-theme ul {
@@ -649,7 +651,15 @@ i.material-icons.menu-burger {
     .contact-sidebar-holder {
         top: 30vh;
     }
+    .theme-option-container p {
+        width: 40%;
+    }
 
+}
+@media screen and (max-width: 1370px) {
+    .theme-option-container p {
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -682,6 +692,7 @@ i.material-icons.menu-burger {
     .contact-sidebar-holder {
         top: 40vh;
     }
+    
 
 
 }
@@ -706,7 +717,7 @@ i.material-icons.menu-burger {
         width: 90%;
         margin-left: -65%;
         margin-top: -10%;
-        height: 100%;
+        height: 100vh;
         background-color: var(--dark-color);
     }
     .link-container ul li a, .link-container ul li i, .link-container ul  {
@@ -741,7 +752,7 @@ i.material-icons.menu-burger {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 25%;
+        width: 30%;
     }
     .projects-button div a i {
         font-size: 16px;
@@ -767,10 +778,7 @@ i.material-icons.menu-burger {
 }
 @media screen and (max-width: 770px) {
      
-    .link-container ul {
-        width: 100%;
-        margin-top: -7%;
-    }
+    
     .link-container ul li a {
         font-size: 26px;
     }
@@ -783,6 +791,20 @@ i.material-icons.menu-burger {
     .footer-content-container p {
         font-size: 14px;
         width: 35ch;
+    }
+    .link-container ul {
+        width: 100%;
+        margin-left: -60%;
+        margin-top: -8%;
+    }
+    .theme-option-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 80vh;
+        margin-left: 5%;
+    }
+    .theme-option-container p {
+        width: 15%;
     }
   
 }
@@ -798,9 +820,10 @@ i.material-icons.menu-burger {
         flex-direction: column;
     }
     .theme-option-container {
-        width: 100%;
-     
-    
+        width: 90%;
+        margin: auto;
+        margin-top: 80vh;
+        margin-left: 5%;
     }
     .arrow-goes-up {
         top: 800px;
@@ -823,6 +846,11 @@ i.material-icons.menu-burger {
     .link-container {
         display: none;
     }
+    .link-container ul {
+        width: 100%;
+        margin-left: -75%;
+        margin-top: -10%;
+    }
 
     .skills-alone {
         width: 100%;
@@ -830,7 +858,8 @@ i.material-icons.menu-burger {
     }
     .contents-about-me {
         font-size: 12px;
-        text-align: start;
+        text-align: justify;
+        width: 250px;
     }
     .header-about-page {
         font-size: 25px;
@@ -850,6 +879,13 @@ i.material-icons.menu-burger {
         font-size: 12px;
       
     }
+    .projects-content div p {
+        font-size: 18px;
+    }
+    .projects-buttons div  {
+        width: 32%;
+     
+    }
 
 }
 @media screen and (max-width: 420px) {
@@ -866,9 +902,17 @@ i.material-icons.menu-burger {
         
         width: 100%;
     }
+    .link-container ul {
+        width: 100%;
+        margin-left: -73%;
+        margin-top: -10%;
+    }
+    .theme-option-container p {
+        width: 25%;
+    }
    
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
     .arrow-goes-up {
         top: 580px;
         margin-top: -90px;
@@ -877,6 +921,14 @@ i.material-icons.menu-burger {
     .contact-sidebar-holder {
         top: 25vh;
         height: 250px;
+    }
+    .link-container ul {
+        width: 100%;
+        margin-left: -75%;
+        margin-top: -10%;
+    }
+    .theme-option-container p {
+        width: 30%;
     }
 }
 
@@ -899,6 +951,9 @@ i.material-icons.menu-burger {
     .footer-content-container p {
         font-size: 10px;
     }
+    .projects-buttons div  {
+        width: 31%;
+    }
 }
 @media screen and (max-width: 280px) {
      
@@ -915,5 +970,15 @@ i.material-icons.menu-burger {
     }
     .footer-content-container p {
         font-size: 8px;
+    }
+    .projects-buttons div  {
+        width: 30%;
+     
+    }
+    .projects-buttons div a {
+        font-size: 15px;
+    }
+    .projects-content div p {
+        font-size: 16px;
     }
 }

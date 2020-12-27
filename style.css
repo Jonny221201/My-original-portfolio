@@ -191,6 +191,7 @@ i.material-icons.menu-burger {
     margin-left: 90%;
     top: 550px;
     margin-top: 100px;
+    border: 2px solid var(--dark-color);
     animation: goes-up-arrow 1.5s infinite;
 
 }
@@ -608,13 +609,13 @@ i.material-icons.menu-burger {
 .footer-content-container p {
     font-size: 20px;
     font-weight: 600;
-    letter-spacing: 1.5px;
-    transform: translateX(0);
-    animation: footer 10s infinite steps(53);
+  
+    animation: footer 7s infinite steps(48);
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid var(--dark-color);
-    width: 53ch;
+    width: 48ch;
+    
    
 }
 .footer-content-container  a {
@@ -627,8 +628,8 @@ i.material-icons.menu-burger {
     0% {
         width: 0ch;
     }
-    60% {
-       width: 53ch;
+    100% {
+       width: 48ch;
     }
 }
 
@@ -780,7 +781,8 @@ i.material-icons.menu-burger {
         top: 35vh;
     }
     .footer-content-container p {
-        font-size: 10px;
+        font-size: 14px;
+        width: 35ch;
     }
   
 }
@@ -845,7 +847,7 @@ i.material-icons.menu-burger {
     } 
   
     .footer-content-container p {
-        font-size: 8px;
+        font-size: 12px;
       
     }
 
@@ -864,11 +866,7 @@ i.material-icons.menu-burger {
         
         width: 100%;
     }
-    .footer-content-container p {
-        font-size: 6px;
-        width: 53ch;
-      
-    }
+   
 }
 @media screen and (max-width: 370px) {
     .arrow-goes-up {
@@ -898,6 +896,9 @@ i.material-icons.menu-burger {
         top: 20vh;
         height: 250px;
     }
+    .footer-content-container p {
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 280px) {
      
@@ -911,5 +912,8 @@ i.material-icons.menu-burger {
     }
     .link-container ul i.close {
         font-size: 30px;
+    }
+    .footer-content-container p {
+        font-size: 8px;
     }
 }

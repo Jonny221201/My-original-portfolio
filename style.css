@@ -735,9 +735,7 @@ i.material-icons.menu-burger {
         margin-left: 80%; 
     }
     
-    .project-content-holder div p, .project-content-holder div a {
-        font-size: 16px;
-    }
+  
     .projects-buttons div  {
         display: flex;
         justify-content: space-between;
@@ -845,6 +843,7 @@ i.material-icons.menu-burger {
         width: 200px;
         height: 100px;
     } 
+  
     .footer-content-container p {
         font-size: 8px;
       
@@ -860,6 +859,15 @@ i.material-icons.menu-burger {
     .contact-sidebar-holder {
         top: 25vh;
         height: 250px;
+    }
+    .footer-content-container {
+        
+        width: 100%;
+    }
+    .footer-content-container p {
+        font-size: 6px;
+        width: 53ch;
+      
     }
 }
 @media screen and (max-width: 370px) {

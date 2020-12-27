@@ -62,9 +62,6 @@ closebtn.addEventListener('click', () => {
     }
 });
 
-let characters = 'All rights reserved. Copyright d abdulazizdeveloper.netlify.app';
-
-console.log(characters.length)
 
 
 

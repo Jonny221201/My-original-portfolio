@@ -1,6 +1,10 @@
 let themesBtn = document.getElementById("themesBtn");
 let colorHolder = document.getElementById("color-container");
 
+let sideBarOpen = document.getElementById("openSidebar");
+let sideBarIcons = document.getElementById("sideBarHolder");
+let closebtn = document.getElementById("close-btn-sidebar");
+
 let burger = document.getElementById("burger");
 let links = document.getElementById("links");
 let close = document.getElementById("close");
@@ -39,5 +43,29 @@ close.addEventListener('click', () => {
     }
    
 });
+
+sideBarOpen.addEventListener('click', () => {
+    if (sideBarIcons.style.display === "none") {
+        sideBarIcons.style.display = "flex";
+        sideBarOpen.style.display = 'none';
+    }  else {
+        sideBarIcons.style.display = 'none';
+    }
+});
+
+closebtn.addEventListener('click', () => {
+    if (sideBarIcons.style.display === "flex") {
+        sideBarIcons.style.display = 'none';
+        sideBarOpen.style.display = 'block';
+    } else {
+        sideBarIcons.style.display = 'flex';
+    }
+});
+
+let characters = 'All rights reserved. Copyright d abdulazizdeveloper.netlify.app';
+
+console.log(characters.length)
+
+
 
 

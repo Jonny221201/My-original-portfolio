@@ -21,20 +21,41 @@ let projectsBtnClose = document.getElementById('projects-btn');
 let contactBtnClose = document.getElementById('contact-btn');
 
 homeBtnClose.addEventListener('click', () => {
-    links.style.display = 'none';
-})
+   
+    if ( links.style.display === 'none') {
+        links.style.display = 'block';
+    } else if (links.style.display === 'block'){
+        links.style.display = 'none';
+    }
+});
 aboutBtnClose.addEventListener('click', () => {
-    links.style.display = 'none';
-})
+    if ( links.style.display === 'none') {
+        links.style.display = 'block';
+    } else if (links.style.display === 'block'){
+        links.style.display = 'none';
+    }
+});
 skillsBtnClose.addEventListener('click', () => {
-    links.style.display = 'none';
-})
+    if ( links.style.display === 'none') {
+        links.style.display = 'block';
+    } else if (links.style.display === 'block'){
+        links.style.display = 'none';
+    }
+});
 projectsBtnClose.addEventListener('click', () => {
-    links.style.display = 'none';
-})
+    if ( links.style.display === 'none') {
+        links.style.display = 'block';
+    } else if (links.style.display === 'block'){
+        links.style.display = 'none';
+    }
+});
 contactBtnClose.addEventListener('click', () => {
-    links.style.display = 'none';
-})
+    if ( links.style.display === 'none') {
+        links.style.display = 'block';
+    } else if (links.style.display === 'block'){
+        links.style.display = 'none';
+    }
+});
 
 
 themesBtn.addEventListener('click', () => {

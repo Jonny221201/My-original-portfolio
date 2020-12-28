@@ -247,9 +247,8 @@ i.material-icons.menu-burger {
     text-align: justify;
     flex-wrap: wrap;
     margin-top: 20px;
-    letter-spacing: 2px;
     line-height: 30px;
-    
+        
 }
 
 .header-about h1 {
@@ -865,7 +864,7 @@ i.material-icons.menu-burger {
         
     }
     .contents-about-me {
-        font-size: 12px;
+        font-size: 14px;
         text-align: justify;
         width: 250px;
     }

@@ -11,7 +11,6 @@
 
     --content-color: #000;
     --content-reverse-color: #fff;
-    --burger-menu-color: #fff;
     --contact-icon-color: #fff;
 }
 
@@ -22,6 +21,7 @@ body{
     box-sizing: border-box;
     background-color: var(--dark-color);
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -95,6 +95,7 @@ nav {
 }
 i.material-icons.menu-burger {
     display: none;
+    color: var(--nav-link-color);
 }
 
 /* theme-stylings */
@@ -196,6 +197,7 @@ i.material-icons.menu-burger {
     margin-top: 100px;
     border: 2px solid var(--dark-color);
     animation: goes-up-arrow 1.5s infinite;
+    z-index: 2;
 
 }
 
@@ -597,6 +599,7 @@ i.material-icons.menu-burger {
     width: 100%;
     background-color: var(--primary-color);
     margin-top: 100px;
+
   
 }
 .footer-content-container {
@@ -607,7 +610,7 @@ i.material-icons.menu-burger {
     justify-content: space-evenly;
     width: 80%;
     margin:auto;
- 
+    z-index: 4;
 }
 .footer-content-container p {
     font-size: 20px;
@@ -618,6 +621,7 @@ i.material-icons.menu-burger {
     white-space: nowrap;
     border-right: 4px solid var(--dark-color);
     width: 48ch;
+    z-index: 4;
     
    
 }
@@ -659,7 +663,7 @@ i.material-icons.menu-burger {
 }
 @media screen and (max-width: 1370px) {
     .theme-option-container p {
-        width: 45%;
+        width: 50%;
     }
 }
 
@@ -700,7 +704,7 @@ i.material-icons.menu-burger {
 
 @media screen and (max-width: 860px) {
  body {
-     font-size: 12px;
+     font-size: 16px;
  }
     .skills-alone {
         width: 30%;
@@ -740,7 +744,7 @@ i.material-icons.menu-burger {
     }
     i.material-icons.menu-burger {
         display: inline-block;
-        color: var(--burger-menu-color);
+       
     }
     .arrow-goes-up {
         top: 900px;
@@ -817,6 +821,9 @@ i.material-icons.menu-burger {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
     .home-holder {
         flex-direction: column;
     }
@@ -839,7 +846,7 @@ i.material-icons.menu-burger {
     }
     i.material-icons.menu-burger {
         display: inline-block;
-        color: var(--burger-menu-color);
+      
     }
     .nav-container {
         font-size: 10px;
@@ -867,6 +874,7 @@ i.material-icons.menu-burger {
     }
     .skills-content-holder {
         font-size: 16px;
+        width: 50%;
     }
     .home-image-holder img {
         width: 200px;
@@ -881,11 +889,13 @@ i.material-icons.menu-burger {
       
     }
     .projects-content div p {
-        font-size: 18px;
+        font-size: 16px;
     }
     .projects-buttons div  {
         width: 32%;
-     
+    }
+    .projects-buttons div a {
+        font-size: 16px;
     }
 
 }

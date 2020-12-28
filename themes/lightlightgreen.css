@@ -3,12 +3,12 @@
     --light-color: #000;
     --content-color: #000;
 
-    --primary-color: green;
+    --primary-color: #00ff00;
     --nav-link-color: #fff;
     --placeholder-color: #b5b5b5;
 
   
-    --content-reverse-color: green;
- 
-    --contact-icon-color: green;
+    --content-reverse-color:#00ff00;
+
+    --contact-icon-color:#00ff00;
 }

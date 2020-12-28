@@ -1,0 +1,15 @@
+:root {
+    --dark-color: #000;
+    --light-color: #fff;
+    --content-color: #fff;
+
+    
+    --primary-color: purple;
+    --nav-link-color: #fff;
+    --placeholder-color: #b5b5b5;
+
+   
+    --content-reverse-color: purple;
+    --burger-menu-color: purple;
+    --contact-icon-color: purple;
+}

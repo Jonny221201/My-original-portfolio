@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
 
 :root {
-    --dark-color: #000;
-    --light-color: #fff;
+    --dark-color: #fff;
+    --light-color: #000;
 
-    --primary-color: #fff;
-    --nav-link-color: #000;
+    --primary-color: #000;
+    --nav-link-color: #fff;
     --placeholder-color: #b5b5b5;
 
-    --content-color: #fff;
-    --content-reverse-color: #000;
-    --burger-menu-color: #000;
-    --contact-icon-color: #000;
+    --content-color: #000;
+    --content-reverse-color: #fff;
+    --burger-menu-color: #fff;
+    --contact-icon-color: #fff;
 }
 
 body{ 
@@ -56,6 +56,7 @@ nav {
 }
 .logo-container h1 {
     font-weight: 900;
+    color: var(--nav-link-color);
 }
 
 
@@ -127,7 +128,7 @@ i.material-icons.menu-burger {
 .theme-option-container p {
     margin-left: 10px;
     font-weight: 500;
-    border-bottom: 1px solid var(--light-color);
+    border-bottom: 1px solid var(--primary-color);
     width: 25%;
     padding-bottom: 10px;
     text-align: center;
@@ -176,16 +177,16 @@ i.material-icons.menu-burger {
    
 }
 .home-content-holder p span {
-    background-color: var(--content-color);
+    background-color: var(--primary-color);
     border-radius: 12px;
     padding: 7px;
-    color: var(--content-reverse-color);
+    color: var(--nav-link-color);
     margin-left: 10px;
     font-weight: 900;
 }
 
 .arrow-goes-up {
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -207,7 +208,7 @@ i.material-icons.menu-burger {
 }
 @keyframes goes-up-arrow {
     50% {
-        box-shadow: 0 0 50px var(--light-color);
+        box-shadow: 0 0 50px var(--primary-color);
     }
 }
 
@@ -236,7 +237,7 @@ i.material-icons.menu-burger {
     padding-bottom: 10px;
     text-align: center;
     font-size: 40px;
-    border-bottom: 2px solid var(--light-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 .contents-about-me {
     display: flex;
@@ -263,7 +264,7 @@ i.material-icons.menu-burger {
 }
 .header-about div span {
     margin-left: 15px;
-    color: var(--light-color);
+    color: var(--primary-color);
 }
 
 /* skills-page-styling */
@@ -285,7 +286,7 @@ i.material-icons.menu-burger {
     color: var(--light-color);
 }
 .skills-content-holder h1 {
-    border-bottom: 2px solid var(--light-color);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
 }
 .skills-container {
@@ -369,7 +370,7 @@ i.material-icons.menu-burger {
     flex-wrap: wrap;
 }
 .projects-page-container h1 {
-    border-bottom: 2px solid var(--light-color);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
     color: var(--light-color);
 }
@@ -390,13 +391,13 @@ i.material-icons.menu-burger {
     width: 600px;
     height: 300px;
     border-radius: 8px;
-    border: 10px solid var(--light-color);
-    box-shadow: 0px 10px 20px var(--light-color);
+    border: 10px solid var(--primary-color);
+    box-shadow: 0px 10px 20px var(--primary-color);
 }
 .projects-content div p {
     margin-top: 30px;
     font-size: 25px;
-    color: var(--primary-color);
+    color: var(--content-color);
 }
 .projects-buttons {
     display: flex;
@@ -408,12 +409,12 @@ i.material-icons.menu-burger {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
     border-radius: 20px;
     padding: 5px 20px;
     width: 20%;
     cursor: pointer;
-    box-shadow: 0px 5px 10px var(--light-color);
+    box-shadow: 0px 5px 10px var(--primary-color);
 }
 .projects-buttons div a {
     color: var(--dark-color);
@@ -462,12 +463,12 @@ i.material-icons.menu-burger {
 }
 .open-sidebar{
     animation: sidebar 2s infinite;
-    color: var(--light-color);
+    color: var(--primary-color);
    
 }
 .open2-sidebar  {
     animation: sidebar2 2s infinite;
-    color: var(--light-color);
+    color: var(--primary-color);
 }
 .open-sidebar i, .open2-sidebar i {
     position: fixed;
@@ -479,12 +480,12 @@ i.material-icons.menu-burger {
 }
 @keyframes sidebar {
     70% {
-       text-shadow: 20px 0 var(--light-color);
+       text-shadow: 20px 0 var(--primary-color);
     } 
 }
 @keyframes sidebar2 {
     60% {
-       text-shadow: 40px 0 var(--light-color);
+       text-shadow: 40px 0 var(--primary-color);
     } 
 }
 
@@ -525,7 +526,7 @@ i.material-icons.menu-burger {
     letter-spacing: 2px;
     font-size: 18px;
     padding-right: 40px;
-    border-right: 1px solid var(--light-color);
+    border-right: 1px solid var(--primary-color);
     color: var(--light-color);
 }
 .contact-form-holder {
@@ -547,7 +548,7 @@ i.material-icons.menu-burger {
 }
 
 .contact-page-container h1 {
-    border-bottom: 2px solid var(--light-color);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
     color: var(--light-color);
     
@@ -558,7 +559,7 @@ i.material-icons.menu-burger {
     font-size: 20px;
     color: var(--dark-color);
     border-radius: 8px;
-    border: none;
+    border: 1px solid var(--primary-color);
 }
 .contact-form-holder textarea {
     outline: none;
@@ -566,23 +567,23 @@ i.material-icons.menu-burger {
     font-size: 20px;
     color: var(--dark-color);
     border-radius: 8px;
-    border: none;
+    border: 1px solid var(--primary-color);
 }
 .contact-form-holder input::placeholder, .contact-form-holder textarea::placeholder {
     color: var(--placeholder-color);
 }
 .contact-form-holder .submit-button {
     width: 30%;
-    border: 2px solid var(--light-color);
+    border: 2px solid var(--primary-color);
     outline: none;
     background-color: var(--dark-color);
-    color: var(--light-color);
+    color: var(--primary-color);
     text-align: center;
     border-radius: 16px;
 }
 .contact-form-holder .submit-button:hover {
     color: var(--dark-color);
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
     transform: scale(0.9);
     cursor: pointer;
 }
@@ -611,7 +612,7 @@ i.material-icons.menu-burger {
 .footer-content-container p {
     font-size: 20px;
     font-weight: 600;
-  
+    color: var(--dark-color);
     animation: footer 7s infinite steps(48);
     overflow: hidden;
     white-space: nowrap;
@@ -982,3 +983,4 @@ i.material-icons.menu-burger {
         font-size: 16px;
     }
 }
+

@@ -615,11 +615,11 @@ i.material-icons.menu-burger {
     font-size: 20px;
     font-weight: 600;
     color: var(--dark-color);
-    animation: footer 7s infinite steps(48);
+    animation: footer 6s infinite steps(28);
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid var(--dark-color);
-    width: 48ch;
+    width: 28ch;
     z-index: 4;
     
    
@@ -635,7 +635,7 @@ i.material-icons.menu-burger {
         width: 0ch;
     }
     100% {
-       width: 48ch;
+       width: 28ch;
     }
 }
 

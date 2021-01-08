@@ -8,6 +8,6 @@
     --placeholder-color: #b5b5b5;
 
     --content-reverse-color: red;
-  
+    --image-home: url(./images/programmingred.svg);
     --contact-icon-color: red;
 }

@@ -13,6 +13,7 @@
     --content-reverse-color: #fff;
     --contact-icon-color: #fff;
     --input-color: #000;
+    --image-home: url(./images/programming.svg);
 }
 
 body{ 
@@ -185,6 +186,20 @@ i.material-icons.menu-burger {
     color: var(--nav-link-color);
     margin-left: 10px;
     font-weight: 900;
+}
+.home-image-holder {
+    width: 50%;
+    background-image: var(--image-home);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-image-holder img {
+  
+  
+   
 }
 
 .arrow-goes-up {
@@ -823,6 +838,11 @@ i.material-icons.menu-burger {
 @media screen and (max-width: 500px) {
     body {
         font-size: 12px;
+    }
+    .home-image-holder {
+        width: 100%;
+        margin-top: 0px;
+        height: 200px;
     }
     .home-holder {
         flex-direction: column;

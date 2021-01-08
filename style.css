@@ -12,6 +12,7 @@
     --content-color: #000;
     --content-reverse-color: #fff;
     --contact-icon-color: #fff;
+    --input-color: #000;
 }
 
 body{ 
@@ -558,7 +559,7 @@ i.material-icons.menu-burger {
     padding: 10px;
     outline: none;
     font-size: 20px;
-    color: var(--dark-color);
+    color: var(--input-color);
     border-radius: 8px;
     border: 1px solid var(--primary-color);
 }
@@ -566,7 +567,7 @@ i.material-icons.menu-burger {
     outline: none;
     padding: 10px;
     font-size: 20px;
-    color: var(--dark-color);
+    color: var(--input-color);
     border-radius: 8px;
     border: 1px solid var(--primary-color);
 }
